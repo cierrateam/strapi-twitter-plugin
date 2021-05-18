@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "tweets",
+  "info": {
+  "name": "tweet",
+      "description": ""
+  },
+  "options": {
+    "increments": true,
+      "timestamps": true,
+      "comment": ""
+  },
+  "attributes": {
+    "external_id": {
+      "type": "text"
+    },
+    "external_created_at": {
+      "type": "datetime"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

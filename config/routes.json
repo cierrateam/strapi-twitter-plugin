@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "twitter-client.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
