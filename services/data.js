@@ -27,7 +27,9 @@ module.exports = {
 
     if (response.status === 200 && response.data.data) {
       const tweets = response.data.data;
-      tweets.forEach(tweet => {
+      tweets.filter(tweet => {
+        return !tweet.in_reply_to_user_id;
+      }).forEach(tweet => {
         strapi.query('tweet', 'twitter-client').create({
           external_id: tweet.id,
           external_created_at: tweet.created_at,
