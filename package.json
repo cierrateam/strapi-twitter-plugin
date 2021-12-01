@@ -1,23 +1,23 @@
 {
   "name": "strapi-plugin-tweeterClient",
   "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "description": "Plugin for loading tweets into strapi. See https://github.com/cierrateam/strapi-twitter-plugin for documentation",
   "strapi": {
-    "name": "tweeterClient",
+    "name": "Twitter Plugin",
     "icon": "plug",
-    "description": "Description of tweeterClient plugin."
+    "description": "Plugin for loading tweets into strapi. See https://github.com/cierrateam/strapi-twitter-plugin for documentation"
   },
   "dependencies": {},
   "author": {
-    "name": "A Strapi developer",
-    "email": "",
-    "url": ""
+    "name": "Vittorio Emmermann",
+    "email": "vittorio@cierra.de",
+    "url": "https://cierra.de"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer",
-      "email": "",
-      "url": ""
+      "name": "Vittorio Emmermann",
+      "email": "vittorio@cierra.de",
+      "url": "https://cierra.de"
     }
   ],
   "engines": {
